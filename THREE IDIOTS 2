@@ -12,8 +12,8 @@ public class Solution {
         int u1 = obj.nextInt();
         int k2 = obj.nextInt();
         int u2 = obj.nextInt();
-        double midk = (k1+k2)/2.0;
-        double midu = (u1+u2)/2.0;
+        double midk = (k1+k2)/2;
+        double midu = (u1+u2)/2;
         System.out.printf("Binoy's house is located at (%.1f,%.1f)",midk,midu);
         
         
